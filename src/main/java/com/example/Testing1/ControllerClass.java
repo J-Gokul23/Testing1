@@ -23,4 +23,9 @@ public class ControllerClass {
     public String getMessage2() {
         return "This is the New Method 2";
     }
+
+    @GetMapping("/getMessage3")
+    public String getMessage3() {
+        return "This is the New Method 3";
+    }
 }
